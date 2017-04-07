@@ -4,18 +4,23 @@
   {% include head.html %}
 
   <body>
-    <div class="container-fluid">
+    {% include header.html %}
+    {% include navbar.html %}
+    <div id="content" class="container-fluid">
+      {% include about.html %}
+      {% include about.html %}
+      {% include about.html %}
+      {% include about.html %}
+      {% include about.html %}
+      {% include about.html %}
+      {% include about.html %}
+      {% include about.html %}
+      {% include about.html %}
 
-      {% include header.html %}
-
-      <main class="page-content" aria-label="Content">
-        <div class="wrapper">
-          {{ content }}
-        </div>
-      </main>
-
-      {% include footer.html %}
+      {% include whatsnew.html %}
+      {% include contact.html %}
     </div>
+    {% include footer.html %}
   </body>
 
 </html>

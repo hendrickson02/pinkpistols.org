@@ -1,5 +1,11 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+
+// $body-bg: #CDC5BF;
+// $font-size-base: 17px;
+// $headings-font-weight: 600;
+// $blockquote-font-size: $font-size-base;
+
+@import "site-specific";
 @import "bootstrap";
-@import "main";

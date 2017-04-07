@@ -1,0 +1,29 @@
+$body-bg: #649e92;
+$content-bg: #efe9e2;
+$navbar-default-bg: #649e92;
+
+$navbar-default-brand-color: #dfb834;
+$navbar-default-brand-hover-color: #ffafb8;
+$list-group-active-text-color: #dfb834;
+
+$font-size-base: 17px;
+$headings-font-weight: 600;
+$blockquote-font-size: $font-size-base;
+
+$link-color: #a13d61;
+
+.navbar-brand {
+  color: $link-color;
+}
+body {
+  padding-top: 52px;
+}
+
+#content {
+  background-color: $content-bg;
+}
+
+#shootback-raw-wide {
+  padding: 10px;
+  max-height: 180px;
+}
