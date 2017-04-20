@@ -19,14 +19,11 @@ $link-color: #a13d61;
 }
 
 .affix + .container-fluid {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .navbar-brand {
   color: $link-color;
-}
-body {
-  padding-top: 52px;
 }
 
 #content {
@@ -36,4 +33,11 @@ body {
 #shootback-raw-wide {
   padding: 10px;
   max-height: 180px;
+}
+
+#training-group {
+  svg {
+    margin-right: 5px;
+  }
+  margin-bottom: 10px;
 }
