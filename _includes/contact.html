@@ -1,38 +1,32 @@
 <div id="contact" class="row-fluid">
   <div class="col-xs-12">
     <div class="h3" style="text-align: center;">Contact</div>
-    <p>If you want to ask us for more information, feel free to send us an email using the form below</p>
+    <p>If you want to ask us for more information, please feel free to send us an email using the form below.</p>
   </div>
-  <div class="col-xs-12">
-    <form>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 align-center">
-            <div>
-              <label>Full Name</label>
-              <br>
-              <input type="text"></input>
-            </div>
-            <div>
-              <label>Email</label>
-              <br>
-              <input type="text"></input>
-            </div>
-          </div>
-          <div class="col-sm-6 align-center">
-            <div>
-            <label>Content</label>
-            <br>
-            <textarea></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <input type="submit" value="Submit" class="btn btn-primary"></input>
-          </div>
-        </div>
+</div>
+<div class="row-fluid">
+  <div class="col-sm-6 align-center">
+    <form name="sendMessage" id=contactForm>
+      <div class="row-fluid control-group">
+        <label>Full Name</label>
+        <br>
+        <input type="text" id="contact-fullname" class="form-control"></input>
+      </div>
+      <div class="row-fluid control-group">
+        <label>Email</label>
+        <br>
+        <input type="text" id="contact-email" class="form-control"></input>
       </div>
     </form>
   </div>
+  <div class="col-sm-6 align-center">
+    <div class="row-fluid control-group">
+      <label>Content</label>
+      <br>
+      <textarea id="contact-body" rows="4" class="form-control"></textarea>
+    </div>
+  </div>
+</div>
+<div class="row-fluid control-group text-center">
+  <input id="contact-submit" type="submit" value="Submit" class="btn btn-primary"></input>
 </div>
