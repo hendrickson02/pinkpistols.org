@@ -16,6 +16,7 @@ $link-color: #a13d61;
 #nav {
   margin-bottom: 0px;
   opacity: 1.0;
+  z-index: 1000;
 }
 
 .affix {
@@ -42,6 +43,12 @@ $link-color: #a13d61;
 #shootback-raw-wide {
   padding: 10px;
   max-height: 180px;
+}
+
+#pinkpistols-head {
+  padding: 10px;
+  max-height: 300px;
+  width: 80%;
 }
 
 #training-group {

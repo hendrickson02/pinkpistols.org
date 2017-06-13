@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Pink Pistols - San Diego Chapter
+title: Pink Pistols San Diego
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to the San Diego Chapter of Pink Pistols!
 
-  This group is dedicated to improving the defenses of the San Diego LGBT community and our allies. You need not be any variation of LGBT to join or support us, just pro-self defense and pro-LGBT.
+  This group is dedicated to improving the defenses of the San Diego LGBT community and our allies. Apart from Second Amendment and LGBT issues, we are non-political, so you need not be any variation of LGBT to join or support us, just pro-self defense and pro-LGBT.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
