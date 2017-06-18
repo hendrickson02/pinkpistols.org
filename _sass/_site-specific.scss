@@ -18,6 +18,18 @@ $link-color: #a13d61;
   opacity: 1.0;
   z-index: 1000;
 }
+#nav a {
+  color: $navbar-default-brand-color;
+}
+#nav a:hover {
+  color: $navbar-default-brand-hover-color;
+}
+#nav li {
+  color: $navbar-default-brand-color;
+}
+#nav li:hover {
+  color: $navbar-default-brand-hover-color;
+}
 
 .affix {
     top: 0;
@@ -71,6 +83,11 @@ $link-color: #a13d61;
   resize: none;
 }
 
-#contact-submit {
-  margin: 10px;
+.footer-below {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.footer-below p {
+  color: $navbar-default-brand-color;
 }
