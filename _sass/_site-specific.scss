@@ -1,6 +1,6 @@
-$body-bg: #649e92;
+$body-bg: black;
 $content-bg: #efe9e2;
-$navbar-default-bg: #649e92;
+$navbar-default-bg: black;
 
 $navbar-default-brand-color: #dfb834;
 $navbar-default-brand-hover-color: #ffafb8;
@@ -46,6 +46,10 @@ $link-color: #a13d61;
 
 .navbar-brand {
   color: $link-color;
+}
+
+.ppfb-button {
+  padding-bottom: 20px;
 }
 
 #content {
