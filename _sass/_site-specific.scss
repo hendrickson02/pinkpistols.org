@@ -57,7 +57,9 @@ $link-color: #a13d61;
 }
 
 #pinkpistols-head {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 #training-group {
